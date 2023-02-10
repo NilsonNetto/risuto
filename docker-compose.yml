@@ -31,7 +31,7 @@ services:
       JWT_SECRET: "docker_secret"
       DATABASE_URL: "postgresql://postgres:123456@banco:5432/risuto?schema=public"
     volumes:
-      - ./risuto-back/usr/src
+      - /risuto-back/usr/src
       - /usr/src/node_modules
     entrypoint: dockerize -wait tcp://banco:5432 -timeout 20s docker-entrypoint.sh
     command: bash -c "npm run migration:run && npm run start"
