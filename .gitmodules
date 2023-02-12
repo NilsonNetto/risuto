@@ -1,3 +1,6 @@
 [submodule "risuto-back"]
 	path = risuto-back
 	url = https://github.com/NilsonNetto/autoral-back.git
+[submodule "risuto-front"]
+	path = risuto-front
+	url = https://github.com/NilsonNetto/autoral-front.git
