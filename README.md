@@ -1,8 +1,12 @@
 # Risuto
 
-Teste o aplicativo neste [link](http://risuto.sytes.net/).
 
-## Sobre o projeto
+https://user-images.githubusercontent.com/106768615/218458171-de5e57d0-fd3c-4792-b337-bd4f6438ffff.mp4
+
+
+Try the app on this [link](http://risuto.sytes.net/).
+
+## About
 
 **Risuto** is an app to create, control and share grocery lists. In the app you can create lists, including locals and items. This lists can be shared with other users by share requests. In the buy menu you can select the list and the local of the list for filter the items by local, allowing you to control which one you already get.
 
@@ -33,11 +37,13 @@ git submodule update
 docker-compose up --build
 ```
 
-4. Access the app on http://localhost on your favorite browser
+4. Wait the docker-compose build finish
 
-5. If needed you can acess the API on http://localhost/api
+5. Access the app on http://localhost on your favorite browser
 
-## Funcionalidades
+6. If needed you can acess the API on http://localhost/api
+
+## Features
 
 - Login:
 
@@ -74,7 +80,7 @@ docker-compose up --build
 
 The following tools and frameworks were used in the construction of the project:
 
-## Front-end
+### Front-end
 
 <p>
   <img style='margin: 5px;' src='https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB'>
@@ -82,7 +88,7 @@ The following tools and frameworks were used in the construction of the project:
   <img style='margin: 5px;' src='https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E'>
 </p>
 
-## Back-end
+### Back-end
 
 <p>
   <img style='margin: 5px;' src='https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white'>
@@ -91,7 +97,7 @@ The following tools and frameworks were used in the construction of the project:
   <img style='margin: 5px;' src='https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white'>
 </p>
 
-## DevOps
+### DevOps
 
 <p>
   <img style='margin: 5px;' src='https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white'>
@@ -107,6 +113,6 @@ If you have any feedback i'll appreciate it!
 <a href="mailto:eng.nilsonnetto@gmail.com" target="_blank">
   <img style='margin: 5px;' src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="30" alt="gmail logo"  />
 </a>
-<a href="https://www.linkedin.com/in/nilson-netto-76b820240/" target="_blank">
+<a href="https://www.linkedin.com/in/nilson-netto/" target="_blank">
   <img style='margin: 5px;' src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="30" alt="linkedin logo"  />
 </a>
